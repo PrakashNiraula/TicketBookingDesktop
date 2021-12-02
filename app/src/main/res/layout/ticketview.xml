@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="10dp"
+        app:cardBackgroundColor="@color/background_light_ascent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="10dp"
+                android:layout_margin="2dp"
+                app:cardBackgroundColor="#00223167">
+
+
+                <ImageView
+                    android:id="@+id/ticketbusimage"
+                    android:layout_width="150dp"
+                    android:layout_height="100dp"/>
+            </androidx.cardview.widget.CardView>
+
+
+
+
+            <LinearLayout
+                android:gravity="right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+            <TextView
+                android:id="@+id/ticketroute"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ilam to Kathmandu"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:id="@+id/ticketbus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bus no: AAA-552"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:id="@+id/ticketseat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Seats: a1,a2,b1"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:id="@+id/ticketdeparture"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Leaving on:2020-02-20 at 10:30"/>
+                <ImageView
+                    android:id="@+id/deleteticket"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_baseline_delete_forever_24"
+                    />
+
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

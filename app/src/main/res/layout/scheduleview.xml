@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardCornerRadius="10dp"
+        app:cardBackgroundColor="@color/background_light_ascent"
+        android:layout_margin="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:id="@+id/displaystart"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Route"
+                android:textSize="30sp"
+                android:textColor="#fff"/>
+
+            <TextView
+                android:id="@+id/displaydestination"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Time"
+                android:textSize="30sp"
+                android:textColor="#fff"
+                android:gravity="right"/>
+
+            <TextView
+                android:id="@+id/displaydate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DepartureDate"
+                android:textSize="30sp"
+                android:textColor="#fff"
+                android:gravity="right"/>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

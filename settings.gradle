@@ -1,0 +1,3 @@
+include ':ticketer-wear'
+include ':app'
+rootProject.name='Ticketer'

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+<!--    <selector xmlns:android="http://schemas.android.com/apk/res/android">-->
+<!--        <item android:color="@colors/seat_empty" android:state_filled="false"/>-->
+<!--        <item android:color="@colors/seat_filled" android:state_filled="true"/>-->
+<!--        <item android:color="@colors/overlay_color" android:state_filled="selected"/>-->
+
+<!--    </selector>-->
+
+
+</resources>

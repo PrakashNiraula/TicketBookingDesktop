@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="background_color">#3CB5E3</color>
+    <color name="background_light_ascent">#7CD1F1</color>
+    <color name="seat_filled">#B01F1F</color>
+    <color name="seat_empty">#1FB0AC</color>
+    <color name="overlay_color">#223167</color>
+    <color name="overlay_color_trransparent">#A1223167</color>
+    <color name="light_background">#ECF5FB</color>
+
+</resources>
